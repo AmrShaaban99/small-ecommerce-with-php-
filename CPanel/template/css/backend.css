@@ -1,0 +1,487 @@
+/*start Main Rolez*/
+body{
+    background-color:#F4F4F4 !important ;
+}
+/*end Main Rolez*/
+.asterisk{
+    font-size: 30px;
+    position: absolute;
+    right:30px;
+    top:8px;
+    color:#020707;
+}
+.edit-btn{
+    color: #4CAF50 !important;
+}
+.edit-btn:hover{
+    color:#111 !important ;
+}
+.delete-btn{
+    color:rgb(211,41,41) !important;
+}
+delete-btn:hover{
+    color:#111  !important;
+}
+/*start LOgin Form*/
+.login{
+    width:350px;
+    margin: 100px auto; 
+    padding: 30px 20px 60px;
+    border:2px solid #008dde;
+    border-radius: 10px;
+}
+.login h4{
+    margin-bottom: 40px;
+    font-size: 32px;
+    color:#008dde;
+}
+.login .form-control{
+    margin-bottom: 10px;
+    background-color: EAEAEA;
+}
+.login btn {
+    background-color: #008dde;
+}
+/*end LOgin Form*/
+/*page dashboard */
+.Dashboard .statistics {
+    margin-top: 30px;  
+}
+.Dashboard .statistics .top-contant .box{
+    width: 23%;
+    margin-right: 1%;
+    margin-left: 1%;
+    background-image: linear-gradient(90deg,#01579B,#0277BD,#0288d1,#039be5);
+    padding-bottom: 20px;
+    height: auto;
+    border-radius: 5px;
+    color:#fff;
+    margin-bottom: 20px;
+}
+.Dashboard .statistics .top-contant .box-final{
+    margin-right:0;
+    margin-left: 0;
+}
+.Dashboard .statistics .top-contant .box .icon{
+    font-size: 28px;
+    margin-top: 30px;
+}
+.Dashboard .statistics .top-contant .box .text-box{
+    margin-top: 13px;
+}
+.Dashboard .statistics .top-contant .box .text-box h4{
+    font-size: 13px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    text-align: center
+}
+.Dashboard .statistics .top-contant .box .text-box p{
+    font-size: 30px;
+    text-align: center;
+}
+.Dashboard .statistics .top-contant .box .text-box p a{
+    color: #fff;
+}
+.Dashboard .statistics .top-contant .box .text-box p a:hover{
+    text-decoration: none;
+}
+.Dashboard .statistics .latest {
+    margin-top: 20px;
+}
+.Dashboard .statistics .latest {
+    margin-top: 30px;
+    
+}
+.Dashboard .statistics .latest-users{
+    margin-bottom: 0;
+}
+.Dashboard .statistics .latest-users li {
+    padding: 5px 3px;
+    overflow: hidden;
+    padding-left: 7px;
+    
+}
+.Dashboard .statistics .latest-users li:nth-child(odd){
+    background-color: #EEE;
+}
+.Dashboard .statistics .latest-users .btn{
+    padding: 3px 8px;
+}
+.Dashboard .statistics  .latest .comment-box{
+    margin: 5px 0 10px;
+}
+.Dashboard .statistics  .latest .comment-box .member-n,
+.Dashboard .statistics  .latest .comment-box .member-c{
+   float: left;
+}
+.Dashboard .statistics  .latest .comment-box .member-n{
+    width: 80px;
+    text-align: center;
+    margin-right: 20px;
+    position: reletive;
+}
+.Dashboard .statistics  .latest .comment-box .member-n a{
+    text-decoration: none;
+    color:#111; 
+}
+.Dashboard .statistics  .latest .comment-box .member-n a:hover{
+    color:#fff;
+}
+.Dashboard .statistics  .latest .comment-box .member-c{
+    width:calc(100% - 100px);
+    background-color: #d9edf7;
+    padding: 10px;
+    position: relative;
+}
+.Dashboard .statistics  .latest .comment-box .member-c:before{
+    content:"";
+    display: block;
+    position: absolute;
+    left: -28px;
+    top:-1px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-color: transparent #d9edf7 transparent  transparent;
+    border-width: 15px;
+}
+/*end page dashboard */
+
+/*page backend dsign */
+.page{
+    background:#1c3faa ;
+    min-height: 695px;
+    padding-top: 20px;
+    overflow: hidden;
+}
+.col-md-9:first-child, .col-md-2:first-child{
+    padding-right: 0px;
+    padding-left: 0px;
+}
+.leftpage{
+    margin-left: 30px;
+}
+.leftpage .header{
+    display: flex;
+    padding-bottom: 7px;
+    margin:0px 20px 20px 12px;
+    border-bottom: 1px solid rgba(46,81,187,1); 
+}
+.leftpage .header div{
+    padding: 5px;
+    color: #fff;
+}
+.leftpage .header div a{
+    font-size: 18px;
+    text-decoration: none;
+    color: #fff;
+}
+.leftpage .header div a:hover{
+    color: #fff;
+}
+.leftpage .navbar{
+    min-height: 585px;
+}
+.leftpage .navbar ul{
+    padding-left: 0px;
+}
+.leftpage .navbar ul  a{
+    text-decoration:none;
+    color: #fff;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    margin-bottom: .25rem;
+    padding-left: 15px;
+    position: relative;
+    color: rgba(255,255,255,1);
+    border-radius: 20px 0px 0px 20px;
+}
+.leftpage .navbar ul  a:hover{
+    background-color:rgba(226,232,240,0.3);
+}
+.leftpage .navbar ul  a:focus{
+    background-color: #f1f5f8;
+    color: #111;
+    width:350px;
+    z-index: 1;
+}
+.leftpage .navbar ul a .side-menu-title{
+    display: flex;
+    align-items: center;
+    margin-left: 8px;
+    width: 100%;
+}
+.rightpage{
+    border-radius: 20px;
+    background-color: #f1f5f8;
+    z-index: 2;
+    width: 78% !important; 
+}
+.rightpage .contant{
+    min-height: 400px;
+}
+.rightpage .topnavbar {
+    margin-top: 15px;
+    height: 50px;
+}
+.rightpage .topnavbar .visit-site{
+    font-size:15px;
+    font-weight: bold;
+    margin: 0px;
+}
+.rightpage .topnavbar .visit-site a{
+    text-decoration: none;
+    color:#fff;
+}
+.rightpage .navSearch {
+    position: relative;
+    width:45% !important;
+    padding-left: 0px;
+    padding-right: 10px;
+    
+}
+.rightpage .icon-search {
+    position: absolute;
+    right: 0;
+    margin-top:10px;
+    font-size: 15px;
+    margin-right: 17px;
+    color: #87a5be;
+    
+}
+.rightpage .inputSearch{
+    padding: 7px;
+    background-color:#d2dfea;
+    border:none;
+    border-radius: 30px;
+    width: 100%;
+    border:2px solid #d2dfea;
+}
+.rightpage .inputSearch:focus{
+    outline: none;
+    box-shadow: 0px 0px 0px 2px #87a5be,0px 0px 0px 2px #87a5be;
+}
+.rightpage .navprofile{
+    position: relative;
+    padding: 0px;
+    padding-left: 10px;   
+    
+}
+.rightpage .navprofile .imgprofile img{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+.rightpage .navprofile .listofprofile{
+  position: relative;
+  display: inline-block;
+  margin-left: -130px;
+    margin-top: 10px;
+    
+    
+}
+.rightpage .navprofile .listofprofile .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #1c3faa;
+  min-width: 160px;
+  overflow: auto;
+  margin-right: 16px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  border-radius: 10px;
+}
+.rightpage .navprofile .listofprofile .dropdown-content a {
+  color: #fff;
+  padding: 12px 16px 12px 30px;
+  text-decoration: none;
+  display: block;
+}
+.rightpage .navprofile .listofprofile .dropdown-content a:hover{
+     color: #111;
+    background-color: rgba(226,232,240,0.2);
+}
+.listofprofile .icon-list-profile {
+    margin-top: 12px;
+    color:#fff;
+    position: absolute;
+    font-size: 20px;
+    margin-left: 9px;
+}
+.rightpage .navprofile .show {display: block;}
+.rightpage .Form-Of-Add{
+    padding: 20px;
+    width: 97%;
+    height: auto;
+    border-radius: 10px;
+    margin: 15px auto 30px auto;
+    position: relative;
+    overflow-x:auto;
+}
+.rightpage .Form-Of-Add h2{
+    text-align: center;
+    font-size: 26px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+}
+.rightpage .Form-Of-Add input{
+    border: 1px solid #e2e8f0;
+    font-family: inherit;
+    
+}
+.rightpage .Form-Of-Add input:focus{
+    border: 2px solid #1c3faa;
+}
+
+.rightpage .Form-Of-Add .btn-color-blue {
+    background-color: #1c3faa;
+    margin-top: 15px;
+    color: #fff;
+    cursor: pointer;
+}
+.rightpage .Form-Of-Add .btn:focus{
+    background-color: rgba(226,232,240,0.5);
+    
+}
+
+.rightpage .Form-Of-Add .table-data{
+    width: 100%;
+    margin-bottom: 30px;
+    border-collapse:separate;
+    border-spacing: 0 10px;
+    text-align: left;
+    color:#111;
+}
+.rightpage .Form-Of-Add .table-data th{padding: 8px 20px;}
+.rightpage .Form-Of-Add .table-data td{
+  padding: 13px 16px;
+  /*background-color:#d2dfea;*/
+  background-color:#fff;
+  box-shadow: 20px 3px 20px rgb(0 0 0 / 4%);
+  white-space: nowrap;
+  }
+.rightpage .Form-Of-Add .table-data td img{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+ }  
+.rightpage .Form-Of-Add .table-left-border {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    
+}
+.rightpage .Form-Of-Add .table-Right-border {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-left:1px solid #f1f5f8;
+    
+}  
+.rightpage .Form-Of-Add .table-Right-border .btn{
+    padding: 6px 6px;
+}
+.rightpage .Form-Of-Add .asterisk{
+     margin-top: -30px;
+}
+/*start category page*/
+.Form-Of-Add .Add-category .radio-box-category  {
+margin: 5px;
+padding: 9px;
+margin-left: 0px;
+padding-left: 0px;
+    
+}
+.Form-Of-Add .Add-category .radio-box-category span {
+    font-size: 18px;
+    margin-right: 5px;
+}
+.Form-Of-Add .Add-category .radio-box-category label{
+    font-size: 16px;
+    margin: 5px;
+    margin-bottom: 0px;
+}
+/*in edit category*/
+.categories  .panel-body{
+    padding: 0;
+}
+.categories hr {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.categories .option a{
+    color: #F0F8FF;
+    cursor: pointer;
+    text-decoration: none;
+}
+.categories .option span{
+    color: #F0F8FF;
+    cursor: pointer;
+}
+.categories .option .active{
+   color: #1c3faa;
+   font-weight: bold;
+}
+.categories .cat{
+    padding: 15px;
+    position: relative;
+    overflow: hidden;
+}
+.categories .cat:hover{
+    background-color:#eee;
+}
+.categories .cat:hover .hidden-buttons{
+    right:10px;
+}
+.categories .cat .hidden-buttons{
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+    position: absolute;
+    top:15px;
+    right: -120px;
+}
+.categories .cat .hidden-buttons a{
+    margin-right: 5px;
+}
+.categories .cat h3{
+    margin: 0 ;
+    cursor: pointer;
+}
+.categories .cat .full-view p{
+    margin: 10px 0 ; 
+}
+.categories .cat:last-of-type ~ hr{
+    display: none;
+}
+.categories .cat .visibility {
+    background-color:#d35400;
+    color:#fff;
+    padding: 4px 6px;
+    margin-right: 10px;
+    border-radius: 6px;
+}
+.categories .cat .commenting {
+    background-color:#2c3e50;
+    color:#fff;
+    padding: 4px 6px;
+    margin-right: 10px;
+    border-radius: 6px;
+}
+.categories .cat .Advertises {
+    background-color:#c0392b;
+    color:#fff;
+    padding: 4px 6px;
+    margin-right: 10px;
+    border-radius: 6px;
+}
+
+.Form-Of-Add .margin-radio-category {
+  margin-top: 8px;  
+}
+/*end category page*/
+
+/*start comment page*/
+.comment-size{
+    max-width:386px;
+}
+/*eng comment page*/
